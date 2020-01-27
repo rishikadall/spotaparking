@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- RISHIKA Bootstrap and CSS for Parking Prototype Project-->
+  <head>
+    <title>Spot a Parking</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=375, initial-scale=1, maximum-scale=1">
+    <!-- Bootstrap, Font Awesome, Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bevan|Peralta|Roboto|Shojumaru|Ultra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <!-- Your Code Starts Here -->
+  <header>
+      <div class="topsearch">
+        <form action="/action_page.php">
+          <label for="search"></label>
+          <input type="text" id="search" name="searches" placeholder="&#xF002;"/>
+          <input type="reset" value="Cancel" id ="cancel">
+        </form>
+      </div>
+  </header>
+  <h5>Downs Hall</h5>
+  <h3>9 Spaces Left</h3>
+  <div>
+  <!--  <canvas id="doughnut-chart" width="191px" height="191px"></canvas>-->
+    <canvas id="doughnut-chart" width="191" height="191" style="display: block; height: 191px; width: 191px;"></canvas>
+    <div class="dialnum">
+      <p>9/90</p>
+    </div>
+  </div>
+  <div class="maps">
+    <p>MAPS</p>
+  </div>
+  <div class="links">
+    <div class="twopref">
+      <p>GIBBS HALL</p>
+    </div>
+    <div class="threepref">
+      <p>MOTT HALL</p>
+    </div>
+  </div>
+
+
+
+<footer>
+  <div class="iconpic">
+    <img src="tabbar.png" alt="tabbar img">
+
+  <!--   <ul class="nav">
+          <li class="nav-item"><a class="nav-link" href="#" title="" target="MyWindow"><img src="tabbar.png" alt="homepage">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" title="" target="MyWindow"><img src="tabbar.png" alt="settings">Settings</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" title="" target="MyWindow"><img src="tabbar.png" alt="Barcode">Barcode</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" title="" target="MyWindow"><img src="tabbar.png" alt="profile">Profile</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" title="" target="MyWindow"><img src="tabbar.png" alt="Filter">Filter</a></li>
+      </ul>-->
+</div>
+  </footer>
+​
+​
+    <!-- Your Code Ends Here -->
+    <!-- jQuery Slim first, then Popper.js, then Bootstrap JS, then custom JS in the "bucket" -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+
+
+    <!-- Optional JavaScript -->
+    <script>
+    new Chart(document.getElementById("doughnut-chart"), {
+    type: 'doughnut',
+    data: {
+      datasets: [
+        {
+          label: "Parking",
+          backgroundColor: ["#8e5ea2","#152456"],
+          data: [9,90]
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: '9/90'
+
+      }
+    }
+});
+</script>
+    </script>
+  </body>
+</html>

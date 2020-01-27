@@ -1,0 +1,402 @@
+/* Your CSS below this line...
+body {
+ background: linear-gradient(to bottom, #33ccff 13%, #ffffff 100%);
+
+  }
+header {
+    background-color: rgb(9, 116, 151);
+    color: rgb(255, 255, 255);
+  }
+.toplook{
+  color: rgb(255, 255, 255);
+
+ }
+ h1 {
+   font-size: 25px;
+   padding: 10px;
+   }
+   p{
+     color:black;
+   }
+
+img {
+   }
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 30px;
+    display: inline-block;
+    font-family: 'Bevan', serif;
+    font-size: 20px;
+
+
+  }
+
+nav .home1 {
+  margin-right: 150px;
+}
+nav ul .dropdown-menu{
+  background-color: rgb(14, 155, 201);
+
+}
+
+.try{
+  float: right;
+}
+.sidearticles{
+  background-image: linear-gradient(to bottom, white , rgb(190, 209, 237));
+  font-family: 'Roboto', sans-serif;
+  color: rgb(15, 116, 171);
+  font-size: 15px;
+  padding: 10px;
+}
+/*.mainarticle{
+  background-image: linear-gradient(to bottom, white , rgb(190, 209, 237));
+  font-size: 15px;
+
+  .curb{
+    padding: 5px;
+  }
+.sub{
+  font-family: 'Peralta', cursive;
+  font-size: 20px;
+
+}
+.news{
+    width: 45%;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, white , rgb(190, 209, 237));
+    margin-top: 50px;
+    text-align: justify;
+    padding-left: 15%;
+}
+footer {
+  background-color: rgb(45, 145, 52);
+
+}
+.hills{
+    position: relative;
+    margin: 60px auto -50px;
+}
+
+.hills .hill1 {
+    left: -40%;
+    z-index: 1;
+}
+
+.hills .hill2 {
+    right: -40%;
+    z-index: 1;
+}
+
+
+.hillfooter {
+    display: block;
+    height: 160px;
+    z-index: 2;}
+
+    .hillwrap {
+    position: relative;
+    width: 100%;
+    height: 140px;
+    max-width: 100%;
+    overflow: hidden;
+    z-index: 6;
+}
+
+.hills .hill3 {
+    display: block;
+    position: relative;
+    top: 10px;
+    margin-left: -10%;
+    width: 120%;
+    height: 200px;
+    z-index: 2;
+}
+
+.hill1 {
+
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    border-top: 1px solid #95c362;
+    border-radius: 50%/50%;
+    background: linear-gradient(to right,#7caf43 0,#528d37 100%);
+    box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+
+}
+.hill2 {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    border-top: 1px solid #95c362;
+    border-radius: 50%/50%;
+    background: linear-gradient(to right,#7caf43 0,#528d37 100%);
+    box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+}
+.hill3 {
+  /*background: #14de36;
+  display: inline-block;
+  height: 200px;
+  width: 100%;
+  border-top-left-radius: 500px;
+  border-top-right-radius: 400px;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    border-top: 1px solid #95c362;
+    border-radius: 50%/50%;
+    background: linear-gradient(to right,#7caf43 0,#528d37 100%);
+    box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+}
+.grass{
+  display: block;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top:-80px;
+  background: url('repeating-grass.png') repeat-x}
+}
+.cows{
+    background: url('imgsprite.png');
+  display: inline-block;
+    height: 148px;
+    width: 167px;
+    background-position: -496px -3px;
+    position: absolute;
+    bottom: 500px;
+    right: 30%;
+    z-index: 10;
+
+}
+.cow{
+
+}
+.imagelook{
+  border:10px solid black;
+/*  position: relative;  define context for absolutly positioned children
+  width: 50px;
+  height:185px;     ;
+}
+
+.cloud1{
+    background: url('imgsprite.png');
+    display: inline-block;
+    height: 128px;
+    width: 164px;
+    background-position: -209px -497px;
+    position: absolute;
+    left: 20px;
+}
+
+.cloud2{
+    background: url('imgsprite.png');
+    display: inline-block;
+    height: 200px;
+    width: 352px;
+    background-position: -140px -3px;
+    position: absolute;
+    right: 5px;
+    top:15px;
+}
+.cloud3{
+  background: url('imgsprite.png');
+  display: inline-block;
+  height: 128px;
+  width: 164px;
+  background-position: -209px -497px;
+  position: absolute;
+  right: 25px;
+  top:600px;
+}
+.cloud4{
+  background: url('imgsprite.png');
+  display: inline-block;
+  height: 185px;
+  width: 254px;
+  background-position: -411px -314px;
+  position: absolute;
+  left: 10px;
+  top:850px;
+}
+
+.dial1{
+  	height: 191px;
+  	width: 191px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.wooden{
+background: url('barn.png');
+}
+.dial{
+  	box-sizing: border-box;
+  	height: 211px;
+  	width: 211px;
+    border-width: 20px;
+  border-style: solid;
+  border-image:background: rgba(89,183,223,1);
+background: -moz-linear-gradient(45deg, rgba(89,183,223,1) 0%, rgba(89,183,223,1) 1%, rgba(72,146,189,1) 49%, rgba(21,36,86,1) 98%, rgba(21,36,86,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(89,183,223,1)), color-stop(1%, rgba(89,183,223,1)), color-stop(49%, rgba(72,146,189,1)), color-stop(98%, rgba(21,36,86,1)), color-stop(100%, rgba(21,36,86,1)));
+background: -webkit-linear-gradient(45deg, rgba(89,183,223,1) 0%, rgba(89,183,223,1) 1%, rgba(72,146,189,1) 49%, rgba(21,36,86,1) 98%, rgba(21,36,86,1) 100%);
+background: -o-linear-gradient(45deg, rgba(89,183,223,1) 0%, rgba(89,183,223,1) 1%, rgba(72,146,189,1) 49%, rgba(21,36,86,1) 98%, rgba(21,36,86,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(89,183,223,1) 0%, rgba(89,183,223,1) 1%, rgba(72,146,189,1) 49%, rgba(21,36,86,1) 98%, rgba(21,36,86,1) 100%);
+background: linear-gradient(45deg, rgba(89,183,223,1) 0%, rgba(89,183,223,1) 1%, rgba(72,146,189,1) 49%, rgba(21,36,86,1) 98%, rgba(21,36,86,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59b7df', endColorstr='#152456', GradientType=1 );
+    opacity: 0.55;
+    border-radius: 50%;
+  	background-color: #FFFFFF;
+    margin-left: 82px;
+    z-index: 1;
+  }
+*/
+
+
+input {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+input[type=text], select {
+  padding: 12px 20px;
+  margin: 14px 4px;
+  display: inline-block;
+  box-sizing: border-box;
+	height: 40px;
+	width: 265px;
+	border-radius: 10px;
+	background-color: #D8D8D8;
+  }
+
+.topsearch {
+  background-color:#152456;
+  padding: 5px;
+  height: 79px;
+	width: 375px;
+  font-family: "Open Sans";
+	font-size: 20px;
+	line-height: 19px;
+	text-align: justify;
+  color: rgba(0,0,0,0.87);
+}
+
+#cancel{
+	height: 22px;
+	width: 55px;
+	color: #FFFFFF;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 19px;
+	text-align: justify;
+}
+
+#myChart{
+  opacity: 0.55;
+  border-radius: 50%;
+  width:20;
+  height:20;
+  }
+
+.dialnum {
+  	color: #152456;
+  	font-family: "Open Sans";
+  	font-size: 60px;
+  	font-weight: bold;
+  	line-height: 82px;
+  	text-align: center;
+    margin-top:25px;
+    margin-left:25px;
+  }
+
+.maps{
+	height: 47px;
+	width: 169px;
+	border-radius: 35px;
+	background-color: #152456;
+  margin-left:103px;
+  margin-top: 30px;
+}
+
+.maps p {
+	height: 17px;
+	width: 47px;
+	color: #FFFFFF;
+	font-family: "Open Sans";
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 17px;
+	text-align: justify;
+  margin-left:61px;
+  padding-top: 16px;
+}
+.twopref{
+	height: 47px;
+	width: 124px;
+	border-radius: 35px;
+	background-color: #152456;
+  margin-left:29px;
+  margin-top: 53px;
+  display: inline-block;
+}
+
+.twopref p {
+	height: 17px;
+	width: 74px;
+	color: #FFFFFF;
+	font-family: "Open Sans";
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 17px;
+	text-align: justify;
+  margin-left:26px;
+  padding-top: 16px;
+}
+
+.threepref{
+	height: 47px;
+	width: 124px;
+	border-radius: 35px;
+	background-color: #152456;
+  margin-left:68px;
+  margin-top: 53px;
+  display: inline-block;
+}
+
+.threepref p {
+	height: 17px;
+	width: 74px;
+	color: #FFFFFF;
+	font-family: "Open Sans";
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 17px;
+	text-align: justify;
+  margin-left:26px;
+  padding-top: 16px;
+}
+
+.iconpic{
+  	width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+h5, h3{
+  text-align:center;
+}
+h3{
+  padding-top: 10px;
+}
+
+
+element.style {
+    display: block;
+    height: 191px;
+    width: 191px;
+}
